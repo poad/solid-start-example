@@ -20,6 +20,9 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    ignore:
+      - dependency-name: "vite"
+        update-types: ["version-update:semver-major"]
     groups:
       packages:
         patterns:

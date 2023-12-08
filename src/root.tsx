@@ -1,5 +1,4 @@
 // @refresh reload
-import { Routes } from '@solidjs/router';
 import { Suspense } from 'solid-js';
 import {
   Body,
@@ -7,6 +6,7 @@ import {
   Head,
   Html,
   Meta,
+  Routes,
   Scripts,
   Title,
 } from 'solid-start';

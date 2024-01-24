@@ -19,7 +19,7 @@
     "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.9.1",
     "@solidjs/testing-library": "^0.8.5",
-    "@testing-library/jest-dom": "^6.2.1",
+    "@testing-library/jest-dom": "^6.3.0",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitest/coverage-v8": "^1.2.1",

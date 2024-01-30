@@ -12,11 +12,11 @@ devDependencies:
     specifier: ^0.9.1
     version: 0.9.1(solid-js@1.8.12)
   '@solidjs/testing-library':
-    specifier: ^0.8.5
-    version: 0.8.5(@solidjs/router@0.9.1)(solid-js@1.8.12)
+    specifier: ^0.8.6
+    version: 0.8.6(@solidjs/router@0.9.1)(solid-js@1.8.12)
   '@testing-library/jest-dom':
-    specifier: ^6.3.0
-    version: 6.3.0(vitest@1.2.2)
+    specifier: ^6.4.0
+    version: 6.4.0(vitest@1.2.2)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.20.0
     version: 6.20.0(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -58,7 +58,7 @@ devDependencies:
     version: 1.8.12
   solid-start:
     specifier: ^0.3.10
-    version: 0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.3.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2)
+    version: 0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.4.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2)
   solid-start-node:
     specifier: ^0.3.10
     version: 0.3.10(solid-start@0.3.10)(vite@4.5.2)
@@ -2274,11 +2274,11 @@ packages:
       solid-js: 1.8.12
     dev: true
 
-  /@solidjs/testing-library@0.8.5(@solidjs/router@0.9.1)(solid-js@1.8.12):
-    resolution: {integrity: sha512-L9TowCoqdRQGB8ikODh9uHXrYTjCUZseVUG0tIVa836//qeSqXP4m0BKG66v9Zp1y1wRxok5qUW97GwrtEBMcw==}
+  /@solidjs/testing-library@0.8.6(@solidjs/router@0.9.1)(solid-js@1.8.12):
+    resolution: {integrity: sha512-MnDGfUw38SjE+lmCDZ44HeZq5WbDU7s/BTa7uvqv55GKatddoWiJmHanUAbuEtmwMdEv+fFQQzftkqrFXEn1BQ==}
     engines: {node: '>= 14'}
     peerDependencies:
-      '@solidjs/router': '>=0.6.0'
+      '@solidjs/router': '>=0.9.0'
       solid-js: '>=1.0.0'
     dependencies:
       '@solidjs/router': 0.9.1(solid-js@1.8.12)
@@ -2300,8 +2300,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom@6.3.0(vitest@1.2.2):
-    resolution: {integrity: sha512-hJVIrkFizEQxoWsGBlycTcQhrpoCH4DhXfrnHFFXgkx3Xdm15zycsq5Ep+vpw4W8S0NJa8cxDHcuJib+1tEbhg==}
+  /@testing-library/jest-dom@6.4.0(vitest@1.2.2):
+    resolution: {integrity: sha512-GgGT3OR8qhIjk2SBMy51AYDWoMnAyR/cwjZO4SttuBmIQ9wWy9QmVOeaSbgT5Bm0J6qLBaf4+dsJWfisvafoaA==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@jest/globals': '>= 28'
@@ -2902,7 +2902,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001581
-      electron-to-chromium: 1.4.649
+      electron-to-chromium: 1.4.651
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
     dev: true
@@ -3317,8 +3317,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium@1.4.649:
-    resolution: {integrity: sha512-dq/owIaALxZGqWm5RXpKQ4baX6aDC19e2Z16c8SXYN+I71PyEKjbVqQUgm7kcuk8CRqljTKXbolo0XXDjxnh2w==}
+  /electron-to-chromium@1.4.651:
+    resolution: {integrity: sha512-jjks7Xx+4I7dslwsbaFocSwqBbGHQmuXBJUK9QBZTIrzPq3pzn6Uf2szFSP728FtLYE3ldiccmlkOM/zhGKCpA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -5627,14 +5627,14 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.29.4
       sirv: 2.0.4
-      solid-start: 0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.3.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2)
+      solid-start: 0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.4.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2)
       terser: 5.27.0
       vite: 4.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /solid-start@0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.3.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2):
+  /solid-start@0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.9.1)(@testing-library/jest-dom@6.4.0)(solid-js@1.8.12)(solid-start-node@0.3.10)(vite@4.5.2):
     resolution: {integrity: sha512-4z+BybZMOyw6Px6FgPvjzW6/UOLCyDNxoKRg19kGGWmcgyWf8YZv+/eIhXdt+09H/LQapZr4ZRY2iFpe7+7PbA==}
     hasBin: true
     peerDependencies:
@@ -5704,7 +5704,7 @@ packages:
       undici: 5.28.2
       vite: 4.5.2
       vite-plugin-inspect: 0.7.42(rollup@3.29.4)(vite@4.5.2)
-      vite-plugin-solid: 2.9.1(@testing-library/jest-dom@6.3.0)(solid-js@1.8.12)(vite@4.5.2)
+      vite-plugin-solid: 2.9.1(@testing-library/jest-dom@6.4.0)(solid-js@1.8.12)(vite@4.5.2)
       wait-on: 6.0.1(debug@4.3.4)
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -6187,7 +6187,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid@2.9.1(@testing-library/jest-dom@6.3.0)(solid-js@1.8.12)(vite@4.5.2):
+  /vite-plugin-solid@2.9.1(@testing-library/jest-dom@6.4.0)(solid-js@1.8.12)(vite@4.5.2):
     resolution: {integrity: sha512-RC4hj+lbvljw57BbMGDApvEOPEh14lwrr/GeXRLNQLcR1qnOdzOwwTSFy13Gj/6FNIZpBEl0bWPU+VYFawrqUw==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -6198,7 +6198,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.23.9
-      '@testing-library/jest-dom': 6.3.0(vitest@1.2.2)
+      '@testing-library/jest-dom': 6.4.0(vitest@1.2.2)
       '@types/babel__core': 7.20.5
       babel-preset-solid: 1.8.12(@babel/core@7.23.9)
       merge-anything: 5.1.7

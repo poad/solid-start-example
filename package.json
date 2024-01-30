@@ -18,8 +18,8 @@
   "devDependencies": {
     "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.9.1",
-    "@solidjs/testing-library": "^0.8.5",
-    "@testing-library/jest-dom": "^6.3.0",
+    "@solidjs/testing-library": "^0.8.6",
+    "@testing-library/jest-dom": "^6.4.0",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "@vitest/coverage-v8": "^1.2.2",

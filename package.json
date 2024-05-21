@@ -36,7 +36,7 @@
     "solid-start": "^0.3.10",
     "solid-start-node": "^0.3.10",
     "typescript": "^5.4.2",
-    "vite": "4.5.2",
+    "vite": "4.5.3",
     "vitest": "^1.4.0"
   }
 }

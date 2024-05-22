@@ -9,6 +9,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      actions:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/'
@@ -20,9 +24,6 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
-    ignore:
-      - dependency-name: "vite"
-        update-types: ["version-update:semver-major"]
     groups:
       packages:
         patterns:

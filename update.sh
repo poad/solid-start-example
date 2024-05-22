@@ -2,29 +2,29 @@
 
 CUR=$(pwd)
 
-CURRENT=$(cd $(dirname $0);pwd)
+CURRENT=$(cd "$(dirname $0)" || exit;pwd)
 echo "${CURRENT}"
 
-cd "${CURRENT}"
+cd "${CURRENT}" || exit
 git pull --prune
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 echo ""
 pwd
-pnpm install && pnpm up -r && pnpm lint-fix && pnpm build && pnpm test
+rm -rf node_modules && pnpm up -r && rm -rf node_modules pnpm-lock.yaml && bun i && bun lint-fix && bun run build
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 git commit -am "Bumps node modules" && git push
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 
-cd "${CUR}"
+cd "${CUR}" || exit

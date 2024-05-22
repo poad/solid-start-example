@@ -16,30 +16,20 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: pnpm/action-setup@v3
-      name: Install pnpm
-      id: pnpm-install
-      with:
-        version: latest
-        run_install: |
-          - recursive: false
-            args: [--no-frozen-lockfile]
+    - uses: oven-sh/setup-bun@v1
 
-    - name: Use Node.js 20.x
-      uses: actions/setup-node@v4.0.2
-      with:
-        node-version: 20.x
-        check-latest: true
+    - name: Install dependencies
+      run: bun install
 
     - name: lint
-      run: pnpm lint
+      run: bun run lint
 
     - name: build
-      run: pnpm build
+      run: bun run build
 
     - name: Test
-      run: pnpm coverage
+      run: bun run coverage
 
     - name: 'Report Coverage'
-      if: always() # Also generate the report if tests are failing
+      if: ${{ !cancelled() }}
       uses:  davelosert/vitest-coverage-report-action@v2

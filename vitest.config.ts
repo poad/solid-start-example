@@ -6,4 +6,9 @@ export default defineConfig({
   resolve: {
     conditions: ["development", "browser"],
   },
+  test: {
+    coverage: {
+      reporter: ['json', 'html', 'cobertura']
+    }
+  },
 });

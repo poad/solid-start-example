@@ -34,8 +34,8 @@
     "jsdom": "^24.1.0",
     "prettier": "^3.3.2",
     "solid-js": "^1.8.18",
-    "typescript": "^5.5.2",
-    "typescript-eslint": "^7.14.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0",
     "vinxi": "^0.3.12",
     "vite": "^5.3.2",
     "vitest": "^1.6.0"

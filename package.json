@@ -35,7 +35,7 @@
     "prettier": "^3.3.2",
     "solid-js": "^1.8.18",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.15.0",
+    "typescript-eslint": "^7.16.0",
     "vinxi": "^0.3.12",
     "vite": "^5.3.3",
     "vitest": "^2.0.1"

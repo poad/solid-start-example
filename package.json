@@ -31,7 +31,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-solid": "^0.14.2",
-    "jsdom": "^24.1.1",
+    "jsdom": "^25.0.0",
     "prettier": "^3.3.3",
     "solid-js": "^1.8.21",
     "typescript": "^5.5.4",

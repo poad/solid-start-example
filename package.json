@@ -34,7 +34,7 @@
     "eslint-plugin-solid": "^0.14.3",
     "jsdom": "^25.0.1",
     "prettier": "^3.3.3",
-    "solid-js": "^1.8.23",
+    "solid-js": "^1.9.0",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.7.0",
     "vinxi": "^0.4.3",

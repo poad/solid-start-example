@@ -16,7 +16,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.13.0",
     "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.14.10",
+    "@solidjs/router": "^0.15.0",
     "@solidjs/start": "^1.0.9",
     "@solidjs/testing-library": "^0.8.10",
     "@stylistic/eslint-plugin": "^2.9.0",

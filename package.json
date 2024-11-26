@@ -26,20 +26,20 @@
     "@stylistic/eslint-plugin-ts": "^2.11.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.5.2",
-    "@vitest/coverage-v8": "^2.1.5",
-    "@vitest/ui": "^2.1.5",
+    "@vitest/coverage-v8": "^2.1.6",
+    "@vitest/ui": "^2.1.6",
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-solid": "^0.14.4",
     "jsdom": "^25.0.1",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "solid-js": "^1.9.3",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.16.0",
     "vinxi": "^0.4.3",
     "vite": "^5.4.11",
-    "vitest": "^2.1.5"
+    "vitest": "^2.1.6"
   },
   "packageManager": "pnpm@9.1.2+sha512.127dc83b9ea10c32be65d22a8efb4a65fb952e8fefbdfded39bdc3c97efc32d31b48b00420df2c1187ace28c921c902f0cb5a134a4d032b8b5295cbfa2c681e2"
 }

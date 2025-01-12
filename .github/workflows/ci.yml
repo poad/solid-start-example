@@ -22,13 +22,16 @@ jobs:
       run: bun install
 
     - name: lint
-      run: bun run --run lint
+      run: bun run --bun lint
 
     - name: build
-      run: bun run --run build
+      run: bun run --bun build
 
     - name: Test
-      run: bun run --run coverage
+      run: bun run --vitest test
+
+    - name: Coverage
+      run: bun run --vitest test
 
     - name: 'Report Coverage'
       if: ${{ !cancelled() }}

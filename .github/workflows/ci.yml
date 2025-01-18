@@ -31,7 +31,7 @@ jobs:
       run: bun run --vitest test
 
     - name: Coverage
-      run: bun run --vitest test
+      run: bun run --vitest coverage
 
     - name: 'Report Coverage'
       if: ${{ !cancelled() }}

@@ -1,7 +1,7 @@
 import { createSignal } from "solid-js";
 import "./components.css";
 
-export default function Counter() {
+export function Counter() {
   const [count, setCount] = createSignal(0);
   return (
     <button class="increment" onClick={() => setCount(count() + 1)}>
@@ -9,3 +9,5 @@ export default function Counter() {
     </button>
   );
 }
+
+export default Counter;

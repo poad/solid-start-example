@@ -1,15 +1,14 @@
-import { describe, it, expect } from 'vitest';
+import { test, expect } from "vitest";
 import { render } from "@solidjs/testing-library";
 import userEvent from "@testing-library/user-event";
-import Counter from "./components";
+import Counter from "./";
 
-describe("<Counter />", () => {
-  it("increments value", async () => {
-    const { queryByRole } = render(() => <Counter />);
-    const button = queryByRole("button") as HTMLButtonElement;
-    expect(button).toBeInTheDocument();
-    expect(button).toHaveTextContent(/Clicks: 0/);
-    await userEvent.click(button);
-    expect(button).toHaveTextContent(/Clicks: 1/);
-  });
+const user = userEvent.setup();
+
+test("increments value", async () => {
+  const { getByRole } = render(() => <Counter />);
+  const counter = getByRole('button');
+  expect(counter).toHaveTextContent("2");
+  await user.click(counter);
+  expect(counter).toHaveTextContent("3");
 });

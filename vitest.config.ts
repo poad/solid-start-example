@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [solid()],
   resolve: {
     conditions: ["development", "browser"],
+    preserveSymlinks: true,
   },
   test: {
     coverage: {

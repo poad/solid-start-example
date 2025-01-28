@@ -28,5 +28,5 @@ gitignore
 Thumbs.db
 coverage
 
-bun.lockb
+bun.lock*
 pnpm-lock.yaml
